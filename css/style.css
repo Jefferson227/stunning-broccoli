@@ -13,6 +13,9 @@ body {
   background-size: cover;
   height: 100vh; }
 
+main {
+  padding: 6rem 10rem; }
+
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -37,3 +40,52 @@ body {
     margin-right: 1rem; }
   .navigation__text {
     font-size: 1.4rem; }
+
+.section-movies__title {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem; }
+
+.section-movies__movies {
+  display: flex;
+  justify-content: space-between; }
+
+.movie {
+  position: relative;
+  border-radius: 1rem;
+  width: 41rem;
+  height: 21rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  overflow: hidden; }
+  .movie__background {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent); }
+  .movie--1 {
+    background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22419-destaque.jpg");
+    background-size: cover; }
+  .movie--2 {
+    background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22813-destaque.jpg");
+    background-size: cover; }
+  .movie--3 {
+    background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22050-destaque.jpg");
+    background-size: cover; }
+  .movie__title, .movie__rating {
+    position: absolute; }
+  .movie__title {
+    bottom: 2rem;
+    left: 1.5rem;
+    width: 75%;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase; }
+  .movie__rating {
+    bottom: 1.5rem;
+    right: 1rem;
+    font-size: 1.3rem;
+    display: inline-block;
+    background-color: green;
+    padding: 1rem 1.3rem; }

@@ -1,0 +1,12 @@
+.section-movies {
+  &__title {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+  }
+
+  &__movies {
+    display: flex;
+    justify-content: space-between;
+  }
+}
