@@ -56,13 +56,14 @@ body {
   width: 41rem;
   height: 21rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-  overflow: hidden; }
+  overflow: hidden;
+  transition: all 0.2s; }
   .movie__background {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 30%;
+    height: 35%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent); }
   .movie--1 {
     background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22419-destaque.jpg");
@@ -89,3 +90,6 @@ body {
     display: inline-block;
     background-color: green;
     padding: 1rem 1.3rem; }
+  .movie:hover {
+    cursor: pointer;
+    transform: translateY(-1rem) scale(1.05); }
