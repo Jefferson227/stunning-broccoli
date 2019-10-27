@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -16,3 +17,23 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #fff; }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2); }
+  .navigation__sitename {
+    font-family: "Lobster", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4); }
+  .navigation__location {
+    padding-top: 0.5rem; }
+  .navigation__icon, .navigation__text {
+    display: inline-block; }
+  .navigation__icon {
+    font-size: 2rem;
+    margin-right: 1rem; }
+  .navigation__text {
+    font-size: 1.6rem; }
