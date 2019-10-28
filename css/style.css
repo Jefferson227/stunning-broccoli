@@ -84,6 +84,9 @@ body {
   .movie--6 {
     background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/23150-destaque.jpg");
     background-size: cover; }
+  .movie--7 {
+    background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22805-destaque.jpg");
+    background-size: cover; }
   .movie__title, .movie__rating {
     position: absolute; }
   .movie__title {
