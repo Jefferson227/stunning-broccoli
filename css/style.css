@@ -11,7 +11,8 @@ html {
 body {
   background-image: linear-gradient(to right bottom, #0052cc, #80b3ff);
   background-size: cover;
-  padding-top: 8rem; }
+  padding-top: 8rem;
+  position: relative; }
 
 main {
   padding: 6rem 10rem; }
@@ -25,7 +26,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 2rem;
@@ -57,6 +58,31 @@ body {
 .section-movies__movies {
   display: flex;
   justify-content: space-between; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 0;
+  background-image: linear-gradient(to right bottom, #333333, #4d4d4d);
+  text-align: center; }
+  .footer__text {
+    font-size: 1.4rem;
+    margin-bottom: 1rem; }
+  .footer__heart {
+    font-size: 1.8rem;
+    color: #e60000; }
+  .footer__link:link, .footer__link:active, .footer__link:visited {
+    text-decoration: none;
+    color: inherit; }
+  .footer__link:not(:last-child) {
+    margin-right: 1rem; }
+  .footer__icon {
+    font-size: 3rem;
+    transition: all 0.2s; }
+    .footer__icon:hover {
+      transform: scale(1.2); }
 
 .movie {
   position: relative;
