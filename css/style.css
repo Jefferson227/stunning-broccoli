@@ -10,7 +10,8 @@ html {
 
 body {
   background-image: linear-gradient(to right bottom, #0052cc, #80b3ff);
-  background-size: cover; }
+  background-size: cover;
+  padding-top: 8rem; }
 
 main {
   padding: 6rem 10rem; }
@@ -21,17 +22,25 @@ body {
   color: #fff; }
 
 .navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   padding: 2rem;
-  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to top, transparent, #0052cc);
+  background-size: cover;
+  z-index: 10; }
   .navigation__sitename {
     font-family: "Lobster", sans-serif;
     font-size: 2.5rem;
     font-weight: 400;
     text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4); }
   .navigation__location {
-    padding-top: 0.5rem; }
+    padding-top: 0.5rem;
+    padding-right: 1.5rem; }
   .navigation__icon, .navigation__text {
     display: inline-block; }
   .navigation__icon {

@@ -1,8 +1,15 @@
 .navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   padding: 2rem;
   box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
+  background-image: linear-gradient(to top, transparent, $color-primary-dark);
+  background-size: cover;
+  z-index: 10;
 
   &__sitename {
     font-family: "Lobster", sans-serif;
@@ -13,6 +20,7 @@
 
   &__location {
     padding-top: 0.5rem;
+    padding-right: 1.5rem;
   }
 
   &__icon,
