@@ -77,6 +77,22 @@
     display: inline-block;
     background-color: green;
     padding: 1rem 1.3rem;
+
+    &--blue {
+      background-color: $color-rating-blue;
+    }
+
+    &--green {
+      background-color: $color-rating-green;
+    }
+
+    &--red {
+      background-color: $color-rating-red;
+    }
+
+    &--black {
+      background-color: $color-rating-black;
+    }
   }
 
   &:hover {
