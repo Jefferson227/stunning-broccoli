@@ -3,6 +3,7 @@
   border-radius: 1rem;
   width: 41rem;
   height: 21rem;
+  margin-bottom: 10rem;
   box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
   overflow: hidden;
   transition: all 0.2s;
@@ -32,6 +33,21 @@
 
   &--3 {
     background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22050-destaque.jpg");
+    background-size: cover;
+  }
+
+  &--4 {
+    background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22808-destaque.jpg");
+    background-size: cover;
+  }
+
+  &--5 {
+    background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22869-destaque.jpg");
+    background-size: cover;
+  }
+
+  &--6 {
+    background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/23150-destaque.jpg");
     background-size: cover;
   }
 
