@@ -2,8 +2,10 @@
   padding: 2rem;
   border-radius: 0.8rem;
   margin-bottom: 3rem;
+  opacity: 1;
   background-color: rgba($color-white, 0.3);
   box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+  animation: fadeIn 1.5s;
 
   &__title {
     font-size: 1.8rem;

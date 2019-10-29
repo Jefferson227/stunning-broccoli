@@ -23,6 +23,12 @@ body {
   font-weight: 400;
   color: #fff; }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
 .navigation {
   position: fixed;
   top: 0;
@@ -55,8 +61,10 @@ body {
   padding: 2rem;
   border-radius: 0.8rem;
   margin-bottom: 3rem;
+  opacity: 1;
   background-color: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  animation: fadeIn 1.5s; }
   .section-movies__title {
     font-size: 1.8rem;
     text-transform: uppercase;
