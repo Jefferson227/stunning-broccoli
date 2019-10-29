@@ -15,7 +15,8 @@ body {
   position: relative; }
 
 main {
-  padding: 6rem 10rem; }
+  padding: 6rem 10rem;
+  padding-bottom: 12rem; }
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -50,14 +51,19 @@ body {
   .navigation__text {
     font-size: 1.4rem; }
 
-.section-movies__title {
-  font-size: 1.8rem;
-  text-transform: uppercase;
-  margin-bottom: 1.5rem; }
-
-.section-movies__movies {
-  display: flex;
-  justify-content: space-between; }
+.section-movies {
+  padding: 2rem;
+  border-radius: 0.8rem;
+  margin-bottom: 3rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  .section-movies__title {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem; }
+  .section-movies__movies {
+    display: flex;
+    justify-content: space-between; }
 
 .footer {
   position: absolute;
@@ -89,38 +95,45 @@ body {
   border-radius: 1rem;
   width: 41rem;
   height: 21rem;
-  margin-bottom: 10rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  transition: all 0.2s; }
-  .movie__background {
+  overflow: hidden; }
+  .movie__background__shadow {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 35%;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent); }
-  .movie--1 {
-    background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22419-destaque.jpg");
-    background-size: cover; }
-  .movie--2 {
-    background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22813-destaque.jpg");
-    background-size: cover; }
-  .movie--3 {
-    background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22050-destaque.jpg");
-    background-size: cover; }
-  .movie--4 {
-    background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22808-destaque.jpg");
-    background-size: cover; }
-  .movie--5 {
-    background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22869-destaque.jpg");
-    background-size: cover; }
-  .movie--6 {
-    background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/23150-destaque.jpg");
-    background-size: cover; }
-  .movie--7 {
-    background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22805-destaque.jpg");
-    background-size: cover; }
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    transition: all 0.2s; }
+  .movie__background__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s;
+    backface-visibility: hidden; }
+    .movie__background__image--1 {
+      background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22419-destaque.jpg");
+      background-size: cover; }
+    .movie__background__image--2 {
+      background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22813-destaque.jpg");
+      background-size: cover; }
+    .movie__background__image--3 {
+      background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22050-destaque.jpg");
+      background-size: cover; }
+    .movie__background__image--4 {
+      background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22808-destaque.jpg");
+      background-size: cover; }
+    .movie__background__image--5 {
+      background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22869-destaque.jpg");
+      background-size: cover; }
+    .movie__background__image--6 {
+      background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/23150-destaque.jpg");
+      background-size: cover; }
+    .movie__background__image--7 {
+      background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22805-destaque.jpg");
+      background-size: cover; }
   .movie__title, .movie__rating {
     position: absolute; }
   .movie__title {
@@ -146,5 +159,10 @@ body {
     .movie__rating--black {
       background-color: #000; }
   .movie:hover {
-    cursor: pointer;
-    transform: translateY(-1rem) scale(1.05); }
+    cursor: pointer; }
+  .movie:hover .movie__background__image {
+    transform: scale(1.2); }
+  .movie:hover .movie__background__shadow {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%; }
