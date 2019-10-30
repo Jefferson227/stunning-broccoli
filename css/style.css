@@ -15,7 +15,7 @@ body {
   position: relative; }
 
 main {
-  padding: 6rem 10rem;
+  padding: 5rem 10rem;
   padding-bottom: 12rem; }
 
 body {
@@ -58,7 +58,10 @@ body {
     font-size: 1.4rem; }
 
 .section-movies {
+  max-width: 131rem;
   padding: 2rem;
+  padding-bottom: 0;
+  padding-right: 0;
   border-radius: 0.8rem;
   margin-bottom: 3rem;
   opacity: 1;
@@ -71,7 +74,7 @@ body {
     margin-bottom: 1.5rem; }
   .section-movies__movies {
     display: flex;
-    justify-content: space-between; }
+    flex-wrap: wrap; }
 
 .footer {
   position: absolute;
@@ -104,7 +107,9 @@ body {
   width: 41rem;
   height: 21rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-  overflow: hidden; }
+  overflow: hidden;
+  margin-right: 2rem;
+  margin-bottom: 2rem; }
   .movie__background__shadow {
     position: absolute;
     bottom: 0;
@@ -140,6 +145,12 @@ body {
       background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/23150-destaque.jpg");
       background-size: cover; }
     .movie__background__image--7 {
+      background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22494-destaque.jpg");
+      background-size: cover; }
+    .movie__background__image--8 {
+      background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22948-destaque.jpg");
+      background-size: cover; }
+    .movie__background__image--9 {
       background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22805-destaque.jpg");
       background-size: cover; }
   .movie__title, .movie__rating {

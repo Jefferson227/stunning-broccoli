@@ -1,5 +1,8 @@
 .section-movies {
+  max-width: 131rem;
   padding: 2rem;
+  padding-bottom: 0;
+  padding-right: 0;
   border-radius: 0.8rem;
   margin-bottom: 3rem;
   opacity: 1;
@@ -15,6 +18,6 @@
 
   &__movies {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
   }
 }

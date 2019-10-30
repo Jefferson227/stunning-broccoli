@@ -5,6 +5,8 @@
   height: 21rem;
   box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
   overflow: hidden;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
 
   &__background {
     &__shadow {
@@ -61,6 +63,16 @@
       }
 
       &--7 {
+        background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22494-destaque.jpg");
+        background-size: cover;
+      }
+
+      &--8 {
+        background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22948-destaque.jpg");
+        background-size: cover;
+      }
+
+      &--9 {
         background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22805-destaque.jpg");
         background-size: cover;
       }
