@@ -12,11 +12,15 @@ body {
     $color-primary-light
   );
   background-size: cover;
-  padding-top: 8rem;
+  padding-top: 7rem;
   position: relative;
 }
 
 main {
   padding: 5rem 10rem;
   padding-bottom: 12rem;
+
+  &.movie-page {
+    padding: 0;
+  }
 }
