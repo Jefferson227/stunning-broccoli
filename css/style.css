@@ -103,12 +103,12 @@ body {
     .footer__icon:hover {
       transform: scale(1.2); }
 
-.section-movie-header__background__image {
+.movie-header__background__image {
   width: 100vw;
   height: 40rem;
   background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22419-destaque.jpg");
   background-size: cover; }
-  .section-movie-header__background__image::after {
+  .movie-header__background__image::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -117,19 +117,19 @@ body {
     height: 65%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent); }
 
-.section-movie-header__list-info {
+.movie-header__list-info {
   position: absolute;
   bottom: 3rem;
   left: 4rem;
   list-style: none; }
 
-.section-movie-header__list-item:not(:last-child) {
+.movie-header__list-item:not(:last-child) {
   margin-bottom: 1rem; }
 
-.section-movie-header__text {
+.movie-header__text {
   font-size: 1.8rem; }
 
-.section-movie-header__title {
+.movie-header__title {
   font-size: 4.5rem;
   font-weight: 500; }
 
