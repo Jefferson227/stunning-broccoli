@@ -131,7 +131,8 @@ body {
 
 .movie-header__title {
   font-size: 4.5rem;
-  font-weight: 500; }
+  font-weight: 500;
+  text-transform: uppercase; }
 
 .movie {
   position: relative;
