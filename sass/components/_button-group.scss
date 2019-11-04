@@ -1,7 +1,5 @@
 .button-group {
-  position: relative;
   text-align: center;
-  margin-top: 12rem;
   font-size: 0;
 
   &__radio {
@@ -17,6 +15,7 @@
   }
 
   &__radio-group {
+    position: relative;
     font-size: 1.8rem;
     text-transform: uppercase;
   }
@@ -26,6 +25,7 @@
     top: 0;
     display: inline-block;
     padding: 2rem 8rem;
+    margin-top: 12rem;
     border: 0.2rem solid $color-white;
     border-radius: 10rem;
     z-index: 0;
