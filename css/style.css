@@ -240,25 +240,19 @@ body {
     display: inline-block;
     padding: 2rem 8rem;
     border: 0.2rem solid #fff;
+    border-radius: 10rem;
     z-index: 0;
     transition: all 0.2s;
     backface-visibility: hidden; }
     .button-group__label--left {
       left: 50%;
       transform: translateX(-90%);
-      border-radius: 10rem 0 0 10rem;
       border-right: none; }
-      .button-group__label--left:hover {
-        border-radius: 10rem; }
     .button-group__label--right {
       right: 50%;
       transform: translateX(90%);
-      border-radius: 0 10rem 10rem 0;
       border-left: none; }
-      .button-group__label--right:hover {
-        border-radius: 10rem; }
     .button-group__label:hover {
-      border: 0.2rem solid #fff;
-      background-color: rgba(255, 255, 255, 0.2);
+      background-color: rgba(255, 255, 255, 0.25);
       cursor: pointer;
       z-index: 10; }

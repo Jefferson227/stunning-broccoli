@@ -27,6 +27,7 @@
     display: inline-block;
     padding: 2rem 8rem;
     border: 0.2rem solid $color-white;
+    border-radius: 10rem;
     z-index: 0;
     transition: all 0.2s;
     backface-visibility: hidden;
@@ -34,28 +35,17 @@
     &--left {
       left: 50%;
       transform: translateX(-90%);
-      border-radius: 10rem 0 0 10rem;
       border-right: none;
-
-      &:hover {
-        border-radius: 10rem;
-      }
     }
 
     &--right {
       right: 50%;
       transform: translateX(90%);
-      border-radius: 0 10rem 10rem 0;
       border-left: none;
-
-      &:hover {
-        border-radius: 10rem;
-      }
     }
 
     &:hover {
-      border: 0.2rem solid $color-white;
-      background-color: rgba($color-white, 0.2);
+      background-color: rgba($color-white, 0.25);
       cursor: pointer;
       z-index: 10;
     }
