@@ -1,5 +1,8 @@
 .movie-header {
+  position: relative;
+
   &__background__image {
+    position: relative;
     width: 100vw;
     height: 40rem;
     background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22419-destaque.jpg");
