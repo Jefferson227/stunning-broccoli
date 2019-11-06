@@ -77,6 +77,8 @@ body {
   .panel__cards {
     display: flex;
     flex-wrap: wrap; }
+  .panel--small {
+    max-width: 62rem; }
 
 .footer {
   position: absolute;
@@ -209,6 +211,25 @@ body {
       background-color: #e60000; }
     .card__rating--black {
       background-color: #000; }
+  .card--small {
+    width: 10rem;
+    height: 8rem;
+    background-image: linear-gradient(to right bottom, #cc7a00, #ffcc80);
+    transition: all 0.2s; }
+    .card--small:hover {
+      transform: translateY(-1rem) scale(1.2);
+      box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2); }
+  .card__text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8rem; }
+    .card__text--top {
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin-top: 1.4rem;
+      margin-bottom: 0.3rem; }
+    .card__text--bottom {
+      font-size: 2.5rem; }
   .card:hover {
     cursor: pointer; }
   .card:hover .card__background__image {
@@ -219,8 +240,8 @@ body {
     height: 100%; }
 
 .button-group {
-  text-align: center;
-  font-size: 0; }
+  height: 20rem;
+  padding-top: 7rem; }
   .button-group__radio {
     display: none; }
     .button-group__radio:checked + .button-group__label {
@@ -238,7 +259,6 @@ body {
     top: 0;
     display: inline-block;
     padding: 2rem 8rem;
-    margin-top: 12rem;
     border: 0.2rem solid #fff;
     border-radius: 10rem;
     z-index: 0;
@@ -256,3 +276,6 @@ body {
       background-color: rgba(255, 255, 255, 0.25);
       cursor: pointer;
       z-index: 10; }
+
+.movie-showtimes {
+  padding: 0 10rem; }

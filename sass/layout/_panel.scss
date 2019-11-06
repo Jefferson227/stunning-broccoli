@@ -20,4 +20,8 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  &--small {
+    max-width: 62rem;
+  }
 }

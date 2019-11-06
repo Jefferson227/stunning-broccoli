@@ -1,6 +1,6 @@
 .button-group {
-  text-align: center;
-  font-size: 0;
+  height: 20rem;
+  padding-top: 7rem;
 
   &__radio {
     display: none;
@@ -25,7 +25,6 @@
     top: 0;
     display: inline-block;
     padding: 2rem 8rem;
-    margin-top: 12rem;
     border: 0.2rem solid $color-white;
     border-radius: 10rem;
     z-index: 0;
