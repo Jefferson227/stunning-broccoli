@@ -214,7 +214,8 @@ body {
   .card--small {
     width: 10rem;
     height: 8rem;
-    background-image: linear-gradient(to right bottom, #cc7a00, #ffcc80);
+    background-color: #0052cc;
+    color: #fff;
     transition: all 0.2s; }
     .card--small:hover {
       transform: translateY(-1rem) scale(1.2);
@@ -245,11 +246,9 @@ body {
   .button-group__radio {
     display: none; }
     .button-group__radio:checked + .button-group__label {
-      border: 0.2rem solid #3385ff;
       background-color: #fff;
       color: #3385ff;
-      z-index: 20;
-      border-radius: 10rem; }
+      z-index: 20; }
   .button-group__radio-group {
     position: relative;
     font-size: 1.8rem;
@@ -260,7 +259,7 @@ body {
     display: inline-block;
     padding: 2rem 8rem;
     border: 0.2rem solid #fff;
-    border-radius: 10rem;
+    border-radius: 1rem;
     z-index: 0;
     transition: all 0.2s;
     backface-visibility: hidden; }

@@ -121,11 +121,8 @@
   &--small {
     width: 10rem;
     height: 8rem;
-    background-image: linear-gradient(
-      to right bottom,
-      $color-secondary-dark,
-      $color-secondary-light
-    );
+    background-color: $color-primary-dark;
+    color: $color-white;
     transition: all 0.2s;
 
     &:hover {
