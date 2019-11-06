@@ -1,4 +1,4 @@
-.section-movies {
+.panel {
   max-width: 131rem;
   padding: 2rem;
   padding-bottom: 0;
@@ -16,7 +16,7 @@
     margin-bottom: 1.5rem;
   }
 
-  &__movies {
+  &__cards {
     display: flex;
     flex-wrap: wrap;
   }
