@@ -118,9 +118,9 @@
     }
   }
 
-  &--small {
+  &--date {
     width: 10rem;
-    height: 8rem;
+    height: auto;
     background-color: $color-primary-dark;
     color: $color-white;
     transition: all 0.2s;
@@ -145,6 +145,7 @@
 
     &--bottom {
       font-size: 2.5rem;
+      margin-bottom: 1.4rem;
     }
   }
 

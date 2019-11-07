@@ -211,13 +211,13 @@ body {
       background-color: #e60000; }
     .card__rating--black {
       background-color: #000; }
-  .card--small {
+  .card--date {
     width: 10rem;
-    height: 8rem;
+    height: auto;
     background-color: #0052cc;
     color: #fff;
     transition: all 0.2s; }
-    .card--small:hover {
+    .card--date:hover {
       transform: translateY(-1rem) scale(1.2);
       box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2); }
   .card__text {
@@ -230,7 +230,8 @@ body {
       margin-top: 1.4rem;
       margin-bottom: 0.3rem; }
     .card__text--bottom {
-      font-size: 2.5rem; }
+      font-size: 2.5rem;
+      margin-bottom: 1.4rem; }
   .card:hover {
     cursor: pointer; }
   .card:hover .card__background__image {
