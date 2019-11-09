@@ -37,6 +37,9 @@ body {
 .u-margin-bottom-small {
   margin-bottom: 1rem !important; }
 
+.u-display-block {
+  display: block !important; }
+
 .navigation {
   position: fixed;
   top: 0;
@@ -297,4 +300,5 @@ body {
       z-index: 10; }
 
 .movie-showtimes {
-  padding: 0 10rem; }
+  padding: 0 10rem;
+  display: none; }
