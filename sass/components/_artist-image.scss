@@ -3,11 +3,24 @@
   margin-right: 2rem;
 
   &__img {
+    background-size: cover;
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
     box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
     margin-bottom: 1rem;
+
+    &--1 {
+      background-image: url(../img/daisy-ridley.jpg);
+    }
+
+    &--2 {
+      background-image: url(../img/adam-driver.jpg);
+    }
+
+    &--3 {
+      background-image: url(../img/john-boyega.jpg);
+    }
   }
 
   &__name {

@@ -312,11 +312,18 @@ body {
   display: inline-block;
   margin-right: 2rem; }
   .artist-image__img {
+    background-size: cover;
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
     margin-bottom: 1rem; }
+    .artist-image__img--1 {
+      background-image: url(../img/daisy-ridley.jpg); }
+    .artist-image__img--2 {
+      background-image: url(../img/adam-driver.jpg); }
+    .artist-image__img--3 {
+      background-image: url(../img/john-boyega.jpg); }
   .artist-image__name {
     text-align: center; }
 
