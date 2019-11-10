@@ -75,7 +75,7 @@ body {
   padding-right: 0;
   border-radius: 0.8rem;
   opacity: 1;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.15);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
   animation: fadeIn 1.5s; }
   .panel:not(:last-child) {
@@ -88,6 +88,10 @@ body {
   .panel__subtitle {
     font-size: 1.3rem;
     margin-bottom: 1.5rem; }
+  .panel__text {
+    font-size: 1.3rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem; }
   .panel__time {
     font-size: 1.5rem; }
   .panel__cards {
@@ -300,5 +304,9 @@ body {
       z-index: 10; }
 
 .movie-showtimes {
+  padding: 0 10rem;
+  display: none; }
+
+.movie-details {
   padding: 0 10rem;
   display: none; }

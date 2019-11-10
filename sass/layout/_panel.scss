@@ -5,7 +5,7 @@
   padding-right: 0;
   border-radius: 0.8rem;
   opacity: 1;
-  background-color: rgba($color-white, 0.3);
+  background-color: rgba($color-white, 0.15);
   box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
   animation: fadeIn 1.5s;
 
@@ -25,7 +25,10 @@
     margin-bottom: 1.5rem;
   }
 
-  &__subpanel {
+  &__text {
+    font-size: 1.3rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
   }
 
   &__time {
