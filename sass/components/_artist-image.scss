@@ -1,0 +1,16 @@
+.artist-image {
+  display: inline-block;
+  margin-right: 2rem;
+
+  &__img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
+    margin-bottom: 1rem;
+  }
+
+  &__name {
+    text-align: center;
+  }
+}

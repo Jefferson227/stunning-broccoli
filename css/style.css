@@ -308,6 +308,18 @@ body {
       cursor: pointer;
       z-index: 10; }
 
+.artist-image {
+  display: inline-block;
+  margin-right: 2rem; }
+  .artist-image__img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    margin-bottom: 1rem; }
+  .artist-image__name {
+    text-align: center; }
+
 .movie-showtimes {
   padding: 0 10rem;
   display: none; }
