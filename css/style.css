@@ -251,7 +251,8 @@ body {
     color: #fff;
     transition: all 0.2s; }
     .card--date:hover {
-      transform: translateY(-1rem) scale(1.2);
+      color: #0052cc;
+      background-color: #fff;
       box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2); }
   .card__text {
     text-align: center;
