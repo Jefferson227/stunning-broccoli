@@ -318,15 +318,19 @@ body {
 
 .artist-image {
   display: inline-block;
-  margin-right: 2rem; }
+  margin-right: 2rem;
+  backface-visibility: hidden; }
+  .artist-image__container {
+    border-radius: 50%;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    margin-bottom: 1rem;
+    overflow: hidden; }
   .artist-image__img {
     position: relative;
     background-size: cover;
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
-    margin-bottom: 1rem;
     transition: all 0.2s; }
     .artist-image__img--1 {
       background-image: url(../img/daisy-ridley.jpg); }
@@ -348,7 +352,8 @@ body {
     text-transform: uppercase;
     text-align: center; }
   .artist-image:hover .artist-image__img {
-    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.4); }
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.4);
+    transform: scale(1.2); }
   .artist-image:hover .artist-image__img::after {
     background-color: rgba(0, 0, 0, 0.3); }
 

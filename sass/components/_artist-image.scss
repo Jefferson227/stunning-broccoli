@@ -1,6 +1,14 @@
 .artist-image {
   display: inline-block;
   margin-right: 2rem;
+  backface-visibility: hidden;
+
+  &__container {
+    border-radius: 50%;
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
 
   &__img {
     position: relative;
@@ -8,8 +16,6 @@
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
-    box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
-    margin-bottom: 1rem;
     transition: all 0.2s;
 
     &--1 {
@@ -44,6 +50,7 @@
 
   &:hover &__img {
     box-shadow: 0 1.5rem 3rem rgba($color-black, 0.4);
+    transform: scale(1.2);
   }
 
   &:hover &__img::after {
