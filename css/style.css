@@ -24,7 +24,10 @@ body {
   position: relative; }
 
 main {
-  padding: 5rem 10rem; }
+  padding: 5rem 3rem 0 3rem; }
+  @media (max-width: 37.5em) {
+    main {
+      padding: 5rem 1rem 0 1rem; } }
   main.movie-page {
     padding: 0; }
 
@@ -85,7 +88,8 @@ body {
   opacity: 1;
   background-color: rgba(255, 255, 255, 0.15);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-  animation: fadeIn 1.5s; }
+  animation: fadeIn 1.5s;
+  margin: 0 auto; }
   .panel:not(:last-child) {
     margin-bottom: 3rem; }
   .panel__title {
@@ -177,6 +181,9 @@ body {
   overflow: hidden;
   margin-right: 2rem;
   margin-bottom: 2rem; }
+  @media (max-width: 75em) {
+    .card {
+      width: 100%; } }
   .card__background__shadow {
     position: absolute;
     bottom: 0;
@@ -193,6 +200,9 @@ body {
     height: 100%;
     transition: all 0.2s;
     backface-visibility: hidden; }
+    @media (max-width: 37.5em) {
+      .card__background__image {
+        background-position: 50%; } }
     .card__background__image--1 {
       background-image: url("https://ingresso-a.akamaihd.net/img/cinema/cartaz/22419-destaque.jpg");
       background-size: cover; }
