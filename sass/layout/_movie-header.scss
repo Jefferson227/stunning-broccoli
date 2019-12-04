@@ -1,5 +1,13 @@
 .movie-header {
   position: relative;
+  height: 40rem;
+
+  &__wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
 
   &__background__image {
     position: relative;
