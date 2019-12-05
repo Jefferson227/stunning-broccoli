@@ -3,6 +3,10 @@
   margin-right: 2rem;
   backface-visibility: hidden;
 
+  @include respond(phone) {
+    margin-bottom: 1rem;
+  }
+
   &__container {
     border-radius: 50%;
     box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
@@ -17,6 +21,11 @@
     height: 15rem;
     border-radius: 50%;
     transition: all 0.2s;
+
+    @include respond(phone) {
+      width: 10rem;
+      height: 10rem;
+    }
 
     &--1 {
       background-image: url(../img/daisy-ridley.jpg);

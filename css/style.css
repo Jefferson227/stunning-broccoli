@@ -31,6 +31,9 @@ main {
   @media (max-width: 37.5em) {
     main {
       padding: 5rem 1rem 0 1rem; } }
+  @media (max-width: 37.5em) {
+    main {
+      padding: 1rem 1rem 0 1rem; } }
   main.movie-page {
     padding: 0; }
 
@@ -71,6 +74,9 @@ body {
     font-size: 2.5rem;
     font-weight: 400;
     text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4); }
+    @media (max-width: 37.5em) {
+      .navigation__sitename {
+        font-size: 2rem; } }
   .navigation__location {
     padding-top: 0.5rem;
     padding-right: 1.5rem; }
@@ -81,6 +87,9 @@ body {
     margin-right: 1rem; }
   .navigation__text {
     font-size: 1.4rem; }
+    @media (max-width: 37.5em) {
+      .navigation__text {
+        font-size: 1.1rem; } }
 
 .panel {
   max-width: 131rem;
@@ -283,9 +292,15 @@ body {
       font-weight: 500;
       margin-top: 1.4rem;
       margin-bottom: 0.3rem; }
+      @media (max-width: 37.5em) {
+        .card__text--top {
+          font-size: 1.1rem; } }
     .card__text--bottom {
       font-size: 2.5rem;
       margin-bottom: 1.4rem; }
+      @media (max-width: 37.5em) {
+        .card__text--bottom {
+          font-size: 2rem; } }
   .card--time {
     height: auto;
     width: auto;
@@ -310,6 +325,10 @@ body {
 .button-group {
   height: 20rem;
   padding-top: 7rem; }
+  @media (max-width: 37.5em) {
+    .button-group {
+      height: 15rem;
+      padding-top: 5rem; } }
   .button-group__radio {
     display: none; }
     .button-group__radio:checked + .button-group__label {
@@ -320,6 +339,9 @@ body {
     position: relative;
     font-size: 1.8rem;
     text-transform: uppercase; }
+    @media (max-width: 37.5em) {
+      .button-group__radio-group {
+        font-size: 1.2rem; } }
   .button-group__label {
     position: absolute;
     top: 0;
@@ -330,6 +352,9 @@ body {
     z-index: 0;
     transition: all 0.2s;
     backface-visibility: hidden; }
+    @media (max-width: 37.5em) {
+      .button-group__label {
+        padding: 2rem 5rem; } }
     .button-group__label--left {
       left: 50%;
       transform: translateX(-90%);
@@ -347,6 +372,9 @@ body {
   display: inline-block;
   margin-right: 2rem;
   backface-visibility: hidden; }
+  @media (max-width: 37.5em) {
+    .artist-image {
+      margin-bottom: 1rem; } }
   .artist-image__container {
     border-radius: 50%;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
@@ -359,6 +387,10 @@ body {
     height: 15rem;
     border-radius: 50%;
     transition: all 0.2s; }
+    @media (max-width: 37.5em) {
+      .artist-image__img {
+        width: 10rem;
+        height: 10rem; } }
     .artist-image__img--1 {
       background-image: url(../img/daisy-ridley.jpg); }
     .artist-image__img--2 {
