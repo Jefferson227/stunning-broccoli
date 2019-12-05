@@ -80,11 +80,18 @@ body {
   .navigation__location {
     padding-top: 0.5rem;
     padding-right: 1.5rem; }
+    @media (max-width: 37.5em) {
+      .navigation__location {
+        padding-top: 0.3rem;
+        padding-right: 0; } }
   .navigation__icon, .navigation__text {
     display: inline-block; }
   .navigation__icon {
     font-size: 2rem;
     margin-right: 1rem; }
+    @media (max-width: 37.5em) {
+      .navigation__icon {
+        margin-right: 0.5rem; } }
   .navigation__text {
     font-size: 1.4rem; }
     @media (max-width: 37.5em) {
