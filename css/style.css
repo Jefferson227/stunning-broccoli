@@ -161,7 +161,8 @@ body {
   position: relative;
   height: 40rem;
   border-radius: 0.8rem;
-  overflow: hidden; }
+  overflow: hidden;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4); }
   .movie-header__wrapper {
     position: absolute;
     top: 0;
