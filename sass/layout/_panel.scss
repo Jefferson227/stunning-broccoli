@@ -37,6 +37,10 @@
     border-radius: 1rem;
     margin-right: 2rem;
     margin-bottom: 2rem;
+
+    @include respond(phone) {
+      width: 26rem;
+    }
   }
 
   &__time {
