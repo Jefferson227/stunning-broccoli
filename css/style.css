@@ -315,6 +315,12 @@ body {
       background-color: #fff;
       box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
       transform: scale(1.1); }
+      @media (max-width: 37.5em) {
+        .card--date:hover {
+          background-color: #0052cc;
+          color: #fff;
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+          transform: none; } }
   .card__text {
     text-align: center;
     text-transform: uppercase;
