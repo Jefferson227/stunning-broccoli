@@ -1,0 +1,64 @@
+.button-arrow {
+  position: absolute;
+  top: 0;
+
+  &--right {
+    height: 100%;
+    width: 20%;
+    right: 0;
+
+    &::before {
+      content: "";
+      transform: rotate(45deg);
+      transform-origin: right;
+      width: 1.5rem;
+      height: 0.3rem;
+      position: absolute;
+      background-color: white;
+      top: 51%;
+      right: 50%;
+    }
+
+    &::after {
+      content: "";
+      transform: rotate(-45deg);
+      transform-origin: right;
+      width: 1.5rem;
+      height: 0.3rem;
+      position: absolute;
+      background-color: white;
+      top: 49%;
+      right: 50%;
+    }
+  }
+
+  &--left {
+    height: 100%;
+    width: 20%;
+    left: 0;
+
+    &::before {
+      content: "";
+      transform: rotate(-45deg);
+      transform-origin: left;
+      width: 1.5rem;
+      height: 0.3rem;
+      position: absolute;
+      background-color: white;
+      top: 51%;
+      left: 50%;
+    }
+
+    &::after {
+      content: "";
+      transform: rotate(45deg);
+      transform-origin: left;
+      width: 1.5rem;
+      height: 0.3rem;
+      position: absolute;
+      background-color: white;
+      top: 49%;
+      left: 50%;
+    }
+  }
+}

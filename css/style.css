@@ -130,7 +130,8 @@ body {
     margin-bottom: 2rem; }
     @media (max-width: 37.5em) {
       .panel__trailer {
-        width: 26rem; } }
+        width: 26rem;
+        height: 19rem; } }
   .panel__time {
     font-size: 1.5rem; }
   .panel__cards {
@@ -304,6 +305,11 @@ body {
     background-color: #0052cc;
     color: #fff;
     transition: all 0.2s; }
+    @media (max-width: 37.5em) {
+      .card--date {
+        width: 100%; }
+        .card--date:not(:first-child) {
+          display: none; } }
     .card--date:hover {
       color: #0052cc;
       background-color: #fff;
@@ -393,6 +399,58 @@ body {
       background-color: rgba(255, 255, 255, 0.25);
       cursor: pointer;
       z-index: 10; }
+
+.button-arrow {
+  position: absolute;
+  top: 0; }
+  .button-arrow--right {
+    height: 100%;
+    width: 20%;
+    right: 0; }
+    .button-arrow--right::before {
+      content: "";
+      transform: rotate(45deg);
+      transform-origin: right;
+      width: 1.5rem;
+      height: 0.3rem;
+      position: absolute;
+      background-color: white;
+      top: 51%;
+      right: 50%; }
+    .button-arrow--right::after {
+      content: "";
+      transform: rotate(-45deg);
+      transform-origin: right;
+      width: 1.5rem;
+      height: 0.3rem;
+      position: absolute;
+      background-color: white;
+      top: 49%;
+      right: 50%; }
+  .button-arrow--left {
+    height: 100%;
+    width: 20%;
+    left: 0; }
+    .button-arrow--left::before {
+      content: "";
+      transform: rotate(-45deg);
+      transform-origin: left;
+      width: 1.5rem;
+      height: 0.3rem;
+      position: absolute;
+      background-color: white;
+      top: 51%;
+      left: 50%; }
+    .button-arrow--left::after {
+      content: "";
+      transform: rotate(45deg);
+      transform-origin: left;
+      width: 1.5rem;
+      height: 0.3rem;
+      position: absolute;
+      background-color: white;
+      top: 49%;
+      left: 50%; }
 
 .artist-image {
   display: inline-block;

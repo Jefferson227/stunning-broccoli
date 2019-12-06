@@ -133,6 +133,14 @@
     color: $color-white;
     transition: all 0.2s;
 
+    @include respond(phone) {
+      width: 100%;
+
+      &:not(:first-child) {
+        display: none;
+      }
+    }
+
     &:hover {
       color: $color-primary-dark;
       background-color: $color-white;
